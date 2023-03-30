@@ -1,0 +1,26 @@
+#about{
+    background-color: black;;
+    font-size:110%;
+    width:60%;
+    border:#00ff26;
+    border-style: ridge;
+    margin:auto;
+    padding: 4.5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+#about::after{
+    content:"";
+    width:8px;
+    height:13px;
+    background:#00ff26;
+    display:inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink{
+    0% {
+        opacity:0;
+    }
+}
