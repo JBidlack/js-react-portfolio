@@ -7,16 +7,15 @@ import Portfolio from './components/portfolio/portfolio.jsx';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Router >
       <Routes>
-        <Route path = '/' element={<Header/>}>
-          <Route path='home' element={<Home/>} />
-          <Route path='about' element={<About/>} />
-          <Route path='fullstack' />
-          <Route path='backend' />
+        <Route path = '' element={<Header/>}>
+          <Route path='/' element={<Home/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/fullstack' />
+          <Route path='/backend' />
         </Route>
       </Routes>
     </Router>

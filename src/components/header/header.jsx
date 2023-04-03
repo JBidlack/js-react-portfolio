@@ -41,7 +41,7 @@ const Header = () => {
         <>
             <header className='relative justify-start text-lg w-full py-5 font-retro'>
                 <div className='font-retro'>
-                    <Link to='/home'>
+                    <Link to='/'>
                         <button className='p-4 pl-12 px-6'>Home</button>
                     </Link>
                     <Link to='/about'>
